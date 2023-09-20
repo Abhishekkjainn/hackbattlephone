@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LEARN SOMETHING | STUDYBUDDY</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="shortcut icon" href="mainlogo.png" type="image/x-icon" />
+  </head>
+  <body class="formbody">
+    <header class="headermain">
+      <div class="logonameheader">
+        <img src="mainlogo.png" alt="Studybuddy" width="60px" />
+        <p class="compname">Study-Buddy</p>
+      </div>
+      <div class="linkdiv">
+        <div class="link1 linksclasspost">Post Class</div>
+        <div class="link2 linksclasspost">Take Class</div>
+        <div class="link3 linksclasspost">Notes</div>
+        <div class="link4 linksclasspost">Alumni</div>
+      </div>
+    </header>
+
+    <div class="maindiv">
+      <div class="firsthalfpostclass">
+        <img
+          src="takeclassimage.png"
+          alt="Studybuddy"
+          class="firsthalfpostimg"
+        />
+      </div>
+      <div class="secondhalfpostclass">
+        <div class="mainform">
+          <select type="text" class="input1 inputs" placeholder="Your Course" id="maincourse">
+            <option value="ComputerScience">Computer Science</option>
+            <option value="Information Technology">INformation Technology</option>
+            <option value="Electronics and Communication Engineering">Electronics and Communication Engineering</option>
+            <option value="Mechanical Engineering">Mechanical Engineering</option>
+          </select>
+          <input type="text" class="input2 inputs" placeholder="Subject Interested" id="branch"></input>
+          <input type="text" class="input3 inputs" placeholder="Topic" id="topic"></input>
+          <input type="date" class="input4 inputs" placeholder="" id="date"></input>
+          <input type="number" class="input5 inputs" placeholder="Contact Number" id="contactno"></input>
+          <input class="input6 inputs" placeholder="Email Id" id="emailid"></input>
+          <button type="button" class="submitbutton" onclick="sender()">Submit</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

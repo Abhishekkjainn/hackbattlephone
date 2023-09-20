@@ -1,0 +1,156 @@
+@media only screen and (max-width: 800px){
+    html body{
+        overflow-x: hidden;
+
+    }
+    .linkdiv{
+        display: none;
+    }
+    .page1{
+        height: 80vh;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+    .page1inside{
+        width: 95%;
+        height: 70vh;
+        background-color: rgba(75, 129, 205, 1);
+        border-radius: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .page1firsthalf{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .page1secondhalf{
+        width: 90%;
+        display: flex;justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .page1image{
+        width:400px;
+    }
+    .head{
+        font-size: 2.5rem;
+        font-weight: 900;
+        margin: 0;
+        color: rgb(0, 0, 0);
+        width: 100%;
+    }
+    
+    .underhead{
+        font-size: 1.2rem;
+        color: rgb(255, 255, 255);
+        font-weight: 600;
+        margin-top:20px ;
+        text-align: left;
+    }
+    .buttononepage1,.buttononepage2{
+        width: 150px;
+        background-color: white;
+        height: 45px;
+        border-radius: 40px;
+        display: flex;justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-weight: 600;
+        margin-left: 20px;
+        margin-right: 20px;
+        border: 3px solid transparent;
+    }
+    /*page2*/
+    .page2{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .page2one,.page2two{
+        width: 90%;
+        height: 420px;
+        border-radius: 40px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .headingpg21{
+        font-size: 1.5rem;
+        width: 80%;
+        font-weight: 700;
+        text-align: center;
+    }
+    .pg21img{
+        width: 100px;
+    }
+    .page4{
+        margin-top: 20px;
+    }
+    .page4inside{
+        background-color: rgba(93, 180, 153, 1);
+    }
+    .pg4img{
+        width: 150px;
+    }
+    /*Footer*/
+.footer{
+    width: 100%;
+    height: 460px;
+    background-color: rgba(67, 80, 88, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+}
+
+.footer2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerimage{
+    width: 150px;
+}
+.footerlinks{
+    width: 150px;
+    height: 40px;
+}
+.footer2{
+    display: flex;justify-content: center;align-items: center;flex-direction: column;
+}
+.footerlinks{
+    width: 120px;
+    height: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;justify-content: center;align-items: center;
+    border-radius: 40px;
+    color: white;
+    font-weight: 600;
+}
+.footerlinks:hover{
+    background-color: rgb(123, 134, 141);
+    color: white;
+    transition: 0.3s;
+}
+}
